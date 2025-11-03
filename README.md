@@ -1,11 +1,11 @@
-# 🧠 Django REST Backend — Todo App
+ Django REST Backend — Todo App
 
 This is the **backend** of a full-stack Todo Application built with **Django** and **Django REST Framework (DRF)**.  
 It provides secure REST APIs used by the **Flutter frontend** for all CRUD operations.
 
 ---
 
-## 🚀 Tech Stack
+ Tech Stack
 - **Python 3.x**
 - **Django 5.x**
 - **Django REST Framework (DRF)**
@@ -14,7 +14,7 @@ It provides secure REST APIs used by the **Flutter frontend** for all CRUD opera
 
 ---
 
-## 🧩 Features
+ Features
 ✅ RESTful APIs for all CRUD operations  
 ✅ Create, Read, Update, Delete todos  
 ✅ Filter todos by status (All / Pending / Done)  
@@ -25,9 +25,9 @@ It provides secure REST APIs used by the **Flutter frontend** for all CRUD opera
 
 
 
----
 
-## 🧠 API Endpoints
+
+ 🧠 API Endpoints
 
 | Method | Endpoint               | Description               |
 |--------|------------------------|---------------------------|
@@ -37,8 +37,6 @@ It provides secure REST APIs used by the **Flutter frontend** for all CRUD opera
 | PUT    | `/api/todos/<id>/`     | Update a todo             |
 | DELETE | `/api/todos/<id>/`     | Delete a todo             |
 
-Example request:
-```bash
 POST /api/todos/
 {
   "title": "Buy groceries",
